@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f1baba;
+}
+#app {
+    max-width: 700px;
+    margin: auto;
+    background: rgb(247, 247, 162);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+button {
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px blueviolet;
+    padding: 10px;
+    background: #f52b89;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #f935e5;
+}
+#recipe-list {
+    margin-top: 20px;
+}
+#search:hover{
+    border: none;
+    outline: 2px solid rgb(56, 75, 214);
+}
+.recipe {
+    padding: 10px;
+    background: #fff;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
